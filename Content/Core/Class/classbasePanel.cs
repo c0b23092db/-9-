@@ -66,7 +66,7 @@ public abstract class classbasePanel : MonoBehaviour
         if(Input.anyKey)
             AudioCard.Play("クリック");
         if (Keyboard.current.upArrowKey.wasPressedThisFrame || Keyboard.current.wKey.wasPressedThisFrame)
-                num_menu = 1;
+            num_menu = 1;
         if (Keyboard.current.leftArrowKey.wasPressedThisFrame || Keyboard.current.aKey.wasPressedThisFrame)
             num_menu = 2;
         if (Keyboard.current.rightArrowKey.wasPressedThisFrame || Keyboard.current.dKey.wasPressedThisFrame)
